@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),; */
+  }
+
+.bg-img{
+    background-image:  url("img/download\ \(26\).jpeg");
+    background-size: 100%;
+}
+.navbar {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 20px 50px;
+  overflow: hidden;
+}
+
+.navbar .logo {
+  float: left;
+  font-size: 24px;
+}
+
+.navbar .logo span {
+  color: orange;
+}
+
+.navbar .menu {
+  float: right;
+}
+
+.navbar .menu a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+.content {
+  padding: 100px 50px;
+  color: white;
+}
+
+.left {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.left h1 {
+  font-size: 36px;
+}
+
+.left h1 span {
+  color: orange;
+}
+
+.left h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.left p {
+  margin-top: 20px;
+  line-height: 1.6;
+  color: #ffffff;
+  max-width: 90%;
+}
+
+.left button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.right {
+  width: 35%;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 30px;
+  border-radius: 5px;
+  vertical-align: top;
+  
+}
+
+.right h2 {
+  margin-bottom: 20px;
+}
+
+.right h2 span {
+  color: orange;
+}
+
+.right input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+.right button {
+  width: 100%;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-weight: bold;
+  
+}
